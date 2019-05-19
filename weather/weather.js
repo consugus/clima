@@ -21,7 +21,6 @@ const getweather = async ( lat, lon ) => {
             (error) => { throw new Error ('Error!!!' + error);
         };
     };
-        // .catch( (error) => { throw new Error ('Error!!!' + error); });
 
 }
 

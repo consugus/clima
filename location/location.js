@@ -20,8 +20,6 @@ const getLocation = async (address) => {
     const lat = data.lat;
     const lon = data.lon;
 
-    // console.log(direccion, lat, lon);
-
     return {
         direccion,
         lat,
